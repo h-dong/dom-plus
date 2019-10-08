@@ -62,6 +62,3 @@ typings/
 
 # VS Code
 .vscode
-
-# deployment files
-lib
