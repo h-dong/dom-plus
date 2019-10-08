@@ -24,7 +24,7 @@ export default [
     },
     {
         input: {
-            index: 'src/main.ts',
+            main: 'src/main.ts',
             append: 'src/append.ts',
             appendRoot: 'src/appendRoot.ts',
             component: 'src/component.ts',
