@@ -1,6 +1,6 @@
 {
-  "name": "dom-plus",
-  "version": "1.0.0",
+  "name": "@hdong/dom-plus",
+  "version": "1.0.1",
   "description": "A slightly different version of the original dom-plus project (https://github.com/gabrielmccallin/dom-plus).",
   "main": "lib/cjs/index.js",
   "types": "lib/cjs/main.d.ts",
