@@ -11,7 +11,7 @@
     "dist/umd/*"
   ],
   "scripts": {
-    "prepublish": "npm run build:clean && npm run build:rollup",
+    "prepare": "npm run build:clean && npm run build:rollup",
     "build:clean": "rm -rf dist",
     "build:rollup": "rollup --config rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
