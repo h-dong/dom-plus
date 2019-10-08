@@ -1,0 +1,42 @@
+{
+  "name": "shiva",
+  "version": "1.0.0",
+  "description": "A slightly different version of the original Shiva project (https://github.com/gabrielmccallin/shiva).",
+  "main": "lib/cjs/index.js",
+  "types": "lib/cjs/main.d.ts",
+  "module": "lib/esm/index.js",
+  "files": [
+    "lib/cjs/*",
+    "lib/esm/*",
+    "lib/umd/*"
+  ],
+  "scripts": {
+    "build": "npm run build:clean && npm run build:rollup",
+    "build:clean": "rm -rf lib",
+    "build:rollup": "rollup --config rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-dong/shiva.git"
+  },
+  "keywords": [
+    "javascript",
+    "frontend",
+    "declarative",
+    "ui",
+    "library"
+  ],
+  "author": "Hao Dong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/h-dong/shiva/issues"
+  },
+  "homepage": "https://github.com/h-dong/shiva#readme",
+  "devDependencies": {
+    "rollup": "^1.23.1",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "typescript": "^3.6.3"
+  }
+}
