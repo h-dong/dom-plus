@@ -15,9 +15,9 @@ export default [
             terser()
         ],
         output: {
-            file: 'lib/umd/shiva.min.js',
+            file: 'lib/umd/dom-plus.min.js',
             format: 'umd',
-            name: 'shiva',
+            name: 'dom-plus',
             sourcemap: true,
             esModule: false
         }

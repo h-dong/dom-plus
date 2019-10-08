@@ -1,5 +1,6 @@
-# shiva
-A custom version of the original Shiva project (https://github.com/gabrielmccallin/shiva).
+# dom-plus
+
+A custom version of the original shiva project (https://github.com/gabrielmccallin/shiva).
 
 ## Why another JavaScript library?
 

@@ -1,7 +1,7 @@
 {
-  "name": "shiva",
+  "name": "dom-plus",
   "version": "1.0.0",
-  "description": "A slightly different version of the original Shiva project (https://github.com/gabrielmccallin/shiva).",
+  "description": "A slightly different version of the original dom-plus project (https://github.com/gabrielmccallin/dom-plus).",
   "main": "lib/cjs/index.js",
   "types": "lib/cjs/main.d.ts",
   "module": "lib/esm/index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/h-dong/shiva.git"
+    "url": "git+https://github.com/h-dong/dom-plus.git"
   },
   "keywords": [
     "javascript",
@@ -30,9 +30,9 @@
   "author": "Hao Dong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/h-dong/shiva/issues"
+    "url": "https://github.com/h-dong/dom-plus/issues"
   },
-  "homepage": "https://github.com/h-dong/shiva#readme",
+  "homepage": "https://github.com/h-dong/dom-plus#readme",
   "devDependencies": {
     "rollup": "^1.23.1",
     "rollup-plugin-terser": "^5.1.2",
