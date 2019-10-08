@@ -1,18 +1,18 @@
 {
-  "name": "dom-plus",
-  "version": "1.0.0",
+  "name": "@hdong/dom-plus",
+  "version": "1.0.1",
   "description": "A slightly different version of the original dom-plus project (https://github.com/gabrielmccallin/dom-plus).",
-  "main": "lib/cjs/index.js",
-  "types": "lib/cjs/main.d.ts",
-  "module": "lib/esm/index.js",
+  "main": "dist/cjs/main.js",
+  "types": "dist/cjs/main.d.ts",
+  "module": "dist/esm/main.js",
   "files": [
-    "lib/cjs/*",
-    "lib/esm/*",
-    "lib/umd/*"
+    "dist/cjs/*",
+    "dist/esm/*",
+    "dist/umd/*"
   ],
   "scripts": {
-    "build": "npm run build:clean && npm run build:rollup",
-    "build:clean": "rm -rf lib",
+    "prepublish": "npm run build:clean && npm run build:rollup",
+    "build:clean": "rm -rf dist",
     "build:rollup": "rollup --config rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

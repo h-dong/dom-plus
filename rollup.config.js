@@ -15,7 +15,7 @@ export default [
             terser()
         ],
         output: {
-            file: 'lib/umd/dom-plus.min.js',
+            file: 'dist/umd/dom-plus.min.js',
             format: 'umd',
             name: 'dom-plus',
             sourcemap: true,
@@ -39,8 +39,8 @@ export default [
             })
         ],
         output: [
-            { dir: 'lib/esm', format: 'esm' },
-            { dir: 'lib/cjs', format: 'cjs' }
+            { dir: 'dist/esm', format: 'esm' },
+            { dir: 'dist/cjs', format: 'cjs' }
         ]
     }
 ];
