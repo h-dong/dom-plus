@@ -64,4 +64,4 @@ typings/
 .vscode
 
 # deployment files
-lib
+dist
