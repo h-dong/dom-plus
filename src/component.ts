@@ -28,7 +28,7 @@ function component(config: ComponentSchema = {}) {
 }
 
 function _addHover(element, style) {
-    if (style.hover && Object.keys(style.hover).length) {
+    if (style && style.hover && Object.keys(style.hover).length) {
         const { hover, styles } = style;
 
         // error handling
